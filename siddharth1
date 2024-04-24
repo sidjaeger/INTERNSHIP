@@ -1,0 +1,20 @@
+class fruits():
+    def red(self):
+        print("cherry is a red colour fruit")
+    def yellow(self):
+        print("mango is a yellow colored fruit")
+    def orange(self):
+        print("orange is a orange colour fruit")
+class vegetable():
+    def red(self):
+        print("tomato is a red colored vegetable")
+    def yellow(self):
+        print("lemon is a yellow colored vegetable")
+    def orange(self):
+        print("carrot is a orange colored vegetable")
+o_f=fruits()
+o_v=vegetables()
+for i in( o_f, o_v):
+    i.red()
+    i.yellow()
+    i.orange()
