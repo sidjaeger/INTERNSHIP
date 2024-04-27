@@ -1,0 +1,13 @@
+stack=[]
+n=int(input())
+i=0
+while(i<n):
+    stack.append(input())
+    i=i+1
+print('initial stack')
+print(stack)
+print('\nelement popoed stack:')
+print(stack.pop())
+print(stack.pop())
+print('\nstack after elements are poped:')
+print(stack)
